@@ -1,0 +1,160 @@
+hi {
+    color:blue;
+    font-size: 50px;
+}
+
+p{
+    color: red;
+    text-align: center;
+}
+
+/* h3{
+    color:green;
+} */
+
+#green {
+color:green;
+}
+
+.blue {
+    color: blue;
+    text-align: left;
+}
+
+a:link{
+    color:green;
+}
+
+a:visited{
+    color:green;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:yellow;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 48px;
+    color:green;
+    padding: 16px;
+    /* the last defined properties will resolve for the css despite the fact that we have multiple font-sizes defined */
+    font-size: 72px;
+}
+
+/* target all <p> tags within a <div> and make the text red */
+div p{
+    color:red;
+}
+
+/* target all div and p tags on the page and make thier text blue */
+/* div,p{
+    color:blue;
+} */
+
+.mycolor{
+    color:cadetblue;
+}
+
+body{
+    background-color: #9df19d;
+}
+
+#box{
+    background-color: blue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    border-style: solid;
+}
+
+.div1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 10px;
+}
+
+.rcorners1 {
+    border-radius: 15px 50px 30px 5px;
+    background: #73AD21;
+    padding: 20px;
+    margin:20px;
+    width: 200px;
+    height: 150px;
+  }
+   
+  .rcorners2 {
+    border-radius: 15px 50px 30px;
+    background: #73AD21;
+    padding: 20px;
+    margin:20px;
+    width: 200px;
+    height: 150px;
+  }
+   
+  .rcorners3 {
+    border-radius: 15px / 50px;
+    background: #73AD21;
+    padding: 20px;
+    margin:20px;
+    width: 200px;
+    height: 150px;
+  }
+   
+  .rcorners4{
+    border-radius: 50%;
+    background: #73AD21;
+    padding: 20px;
+    margin:20px;
+    width: 200px;
+    height: 150px;
+  }
+
+  div.static {
+    position: static;
+    border: 3px solid #73AD21;
+  }
+
+  div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+  }
+
+  div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }
+
+  div.other-relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  }
+    
+  div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+  }
+
+  div.sticky {
+    position: -webkit-sticky; /* Needed for Safari */
+    position: sticky;
+    top: 0;
+    background-color: green;
+    border: 2px solid #4CAF50;
+  }
